@@ -7,9 +7,9 @@ export function banhoGato(raca, tipoBanho)
 }
 export function tosaGato(raca, tipoTosa)
 {
-    return `O gato $s{raca} tomou banho: $(tipoTosa)`
+    return `O gato $s{raca} fez tosa: $(tipoTosa)`
 }
 export function alimentarGato(raca, tipocomida)
 {
-    return `O gato $s{raca} tomou banho: $(tipoComida)`
+    return `O gato $s{raca} comeu; $(tipoComida)`
 }
